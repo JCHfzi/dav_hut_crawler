@@ -2,7 +2,15 @@
 
 The idea of this script is to scrape the data from the [online reservation portal](https://www.alpenverein.de/huetten-wege-touren/huetteninfo/huetten-in-den-alpen/onlinereservierungssystem-der-alpenvereinshuetten_aid_28962.html). This allows to check availability for any date in the current season. 
 
+This makes it easy to identify a free hut on any giving data, instead of browsing them manually.
 
+![](doc\HRSReservationen.png)
+
+List of Huts:
+![](doc\results_huts.png)
+
+List of free beds:
+![](doc\results_empty_bed.png)
 
 ## Installation
 
@@ -36,6 +44,21 @@ Run ```run.py```
 - For booking, the huts can be found with their ID at ```https://www.alpsonline.org/reservation/calendar?hut_id=1```
 
 
-## Further Ideas
+## Roadmap
+
+### Must
+
+- Interaktive Ergebnistabelle
+- Sinnvolles Auswählen von Hütten
+- Sinnvolles Filtern nach Datum
+
+
+### Can
+
+- Dasboard mit Karte Datum ein Freiheit
+- Fallunterscheidung bei Kooridnaten: Schweizer Hütten sind im eigenen Kooridnatensystem
+- Timeouts optimieren, damit Abruf schnell und vollständig
+
+### Further Ideas
 
 - Putting everything in a google colab, so everyone can run it from everywhere
