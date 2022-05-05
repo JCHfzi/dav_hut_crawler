@@ -12,6 +12,8 @@ List of Huts:
 List of free beds:
 ![](doc/results_empty_bed.png)
 
+The same idea is implemented [here](https://www.deine-berge.de/av_reservierung.php).
+
 ## Installation
 
 Requires Python >=3.8
