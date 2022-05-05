@@ -4,13 +4,13 @@ The idea of this script is to scrape the data from the [online reservation porta
 
 This makes it easy to identify a free hut on any giving data, instead of browsing them manually.
 
-![](doc\HRSReservationen.png)
+![](doc/HRSReservationen.png)
 
 List of Huts:
-![](doc\results_huts.png)
+![](doc/results_huts.png)
 
 List of free beds:
-![](doc\results_empty_bed.png)
+![](doc/results_empty_bed.png)
 
 ## Installation
 
